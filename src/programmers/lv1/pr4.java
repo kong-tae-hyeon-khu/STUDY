@@ -10,7 +10,7 @@ public class pr4 {
 
         for (int i = 1; i <= n; i++) {
             if (n % i == 0)
-                answer += i; // 더 효울적인 방법을 생각해보자.
+                answer += i; // 더 효울적인 방법을 생각해보자. => 범위를 절반까지 줄일 수 있음 !
         }
 
         return answer;
