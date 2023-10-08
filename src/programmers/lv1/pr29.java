@@ -1,6 +1,7 @@
 package programmers.lv1;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+
 
 //문제 설명
 //        배열 arr가 주어집니다. 배열 arr의 각 원소는 숫자 0부터 9까지로 이루어져 있습니다.
@@ -16,15 +17,20 @@ import java.util.Arrays;
 //        배열 arr의 원소의 크기 : 0보다 크거나 같고 9보다 작거나 같은 정수
 public class pr29 {
 
-    public static void main(String args[]) {
-        int[] test = {1,1,2,4,4,6};
-        int[] result = solution(test);
-        Arrays.stream(result).forEach();
-    }
+    public int[] solution(int []arr) {
 
-    public static int[] solution(int[] arr) {
-        int[] answer = {};
-        answer.
-        return answer;
+        ArrayList<Integer> arrayInteger = new ArrayList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            if (i == 0 || arr[i-1] != arr[i])
+                arrayInteger.add(arr[i]);
+        }
+        int[] result = new int[arrayInteger.size()];
+
+        for (int i = 0; i < arrayInteger.size(); i++)
+            result[i] = arrayInteger.get(i);
+
+        return result;
+
     }
 }
