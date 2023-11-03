@@ -17,12 +17,12 @@
   * 선형 자료구조(Linear Data Structure)  
   데이터가 일렬로 연결된 형태. 우리가 흔히 쓰는 int[] 배열 같은 것.
   선형 자료구조는 대표적으로 리스트(List)와 큐(Queue), 덱(Deque) 등이 있다.  
-  <br>
+  
   * 비선형 자료구조(Nonlinear Data Structure)  
   데이터가 일렬로 나열된 것이 아닌, 각 요소가 여러 개의 요소와 연결 된 형태. (마치 거미줄처럼)
   * 집합 자료구조(Set Data Structure)  
-  집합의 경우는 데이터가 연결된 형식이 아니다.  
-<br>
+  집합의 경우는 데이터가 연결된 형식이 아니다.
+  <br>
 
 **Java Collection FrameWork**
 
