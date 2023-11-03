@@ -23,5 +23,7 @@
   * 집합 자료구조(Set Data Structure)  
   집합의 경우는 데이터가 연결된 형식이 아니다.  
 <br>
+
 **Java Collection FrameWork**
-![img.png](collection_framework.png)
+
+![javaCollectionFramework](./collection_framework.png)
