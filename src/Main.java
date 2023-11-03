@@ -9,5 +9,7 @@ public class Main {
 
         index = BinarySearch.binarySearch(arr, 10);
         System.out.println("정답 : " + index);
+
+
     }
 }
